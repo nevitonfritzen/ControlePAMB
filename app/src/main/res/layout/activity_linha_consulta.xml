@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+            android:id="@+id/textViewTracoCodigo" />
+
+        <TextView
+            android:id="@+id/textViewDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/campoEndereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endereço: "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textViewEndereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" endereco "
+            android:textSize="17dp" />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/campoBairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bairro: "
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textViewBairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bairro"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/campoImpacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Impacto Ambiental: "
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textViewImpactoAmb" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excluir"
+            android:id="@+id/buttonExcluir"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/buttonEditar"
+            android:layout_toStartOf="@+id/buttonEditar"
+            android:layout_marginRight="29dp"
+            android:layout_marginEnd="29dp"
+            android:layout_alignBottom="@+id/buttonEditar"
+            android:textColor="#276bea" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:text="Editar"
+            android:id="@+id/buttonEditar"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="#276bea"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

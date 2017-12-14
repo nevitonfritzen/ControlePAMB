@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Controle de Ameaças</string>
+    <string name="action_settings">Settings</string>
+    <string name="salvar">Salvar</string>
+    <string name="voltar">Voltar</string>
+    <string name="alterar">Alterar</string>
+    <string name="descricao_obrigatorio">O Nome é de preenchimento obrigatório!</string>
+    <string name="endereco_obrigatorio">O Endereço é de preenchimento obrigatório!</string>
+    <string name="bairro_obrigatorio">O Bairro é de preenchimento obrigatório!</string>
+    <string name="potencia_impacto_obrigatorio">o Campo Potencia de impacto é de preenchimento obrigatório!</string>
+    <string name="registro_salvo_sucesso">Registro salvo com sucesso!</string>
+    <string name="title_activity_creditos">CreditosActivity</string>
+    <string name="nome_app">Nome: Controle de Ameaças</string>
+    <string name="versao">Versão: 1.0</string>
+    <string name="nome_dev">Desenvolvido por Néviton Fritzen</string>
+    <string name="contato">contato: neviton2308@gmail.com</string>
+</resources>
